@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Ball">
+      <UniqueIdentifier>{966ba0b3-af5c-4ebc-93ea-b94624d5d786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Collision">
+      <UniqueIdentifier>{9d05dd2e-ff1b-4214-8d50-15044ab4ea46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Common">
+      <UniqueIdentifier>{64fdfb50-7d65-4a91-8f01-fda8649d14e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SoundSystem">
+      <UniqueIdentifier>{9d8c522b-5a14-4d5c-87e7-76fe7f4d3923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Menu">
+      <UniqueIdentifier>{2f0984c5-40eb-4e07-9b4b-507b88af4d76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ball.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ball_move.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="check_location.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_obstacle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Information.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="obstacle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="check_collision_point.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WM_Command.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>소스 파일\SoundSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="StageClear.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ball_move.cpp">
+      <Filter>소스 파일\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="check_collision_point.cpp">
+      <Filter>소스 파일\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>소스 파일\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_obstacle.cpp">
+      <Filter>소스 파일\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스 파일\SoundSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="WM_Command.cpp">
+      <Filter>소스 파일\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="check_location.cpp">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="reflection.cpp">
+      <Filter>소스 파일\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Information.cpp">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="obstacle.cpp">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="StageClear.cpp">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap\조작법(클릭후).bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap\게임배경(중간).bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap\결과창.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap\끝내기(선택전).bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap\끝내기(클릭전).bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap\끝내기(클릭후).bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap\설명문.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap\시작하기(선택전).bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap\시작하기(클릭전).bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap\시작하기(클릭후).bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap\제목.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap\조작법(선택전).bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap\조작법(클릭전).bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
