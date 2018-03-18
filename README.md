@@ -32,4 +32,4 @@
 >    ```
 
 ## 저자
->박예훈 - Beyond_Imagination-고려대학교(세종)-https://github.com/gangjung
+>박예훈 - 고려대학교(세종)-https://github.com/gangjung
